@@ -1,0 +1,46 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-form{
+    background: #efefef;
+
+}
+form{
+    text-align: left;
+    font-size: 1.1em;
+}
+
+h2{
+    text-align: left;
+    padding: 10px;
+    padding-left: 28px;
+}
+form ul{
+    padding: 0;
+}
+form li{
+    list-style: none;
+    padding: 10px 30px;
+    margin: 0;
+    
+}
+input, textarea{
+    width: 100%;
+    line-height: 2em;
+}
+.submit{
+    width: 15%;
+}
+
+.js #contact{
+    position: absolute;
+    width: inherit;
+    top: 0;
+    display: none;
+}
+.close-button{
+    float: right;
+    cursor: pointer;
+}
