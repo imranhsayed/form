@@ -5,6 +5,19 @@
  * Date: 12/05/17
  * Time: 4:46 PM
  */
+
+/**
+ * Returns the name
+ *
+ * @param $name
+ *
+ * @return string
+ */
+function display_name( $name ) {
+	return "This is $name";
+}
+
+echo display_name( 'Ravi' );
 ?>
 <!doctype html>
 <html lang="en">
